@@ -1,6 +1,6 @@
 
 def find_sqrt(x):
-    for i in xrange(x/2+1):
+    for i in range(x/2+1):
         if (i*i == x):
             return i
     return 0
